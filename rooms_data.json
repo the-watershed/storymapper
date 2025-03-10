@@ -1,0 +1,228 @@
+{
+  "rooms": [
+    {
+      "name": "Whispering Pines",
+      "description": "A forest of towering pines where the wind seems to whisper secrets.",
+      "npcs": [
+        {
+          "name": "Forest Spirit",
+          "description": "An ethereal being of the woods.",
+          "inventory": [],
+          "hostility": "neutral"
+        }
+      ],
+      "items": [
+        {
+          "name": "Map",
+          "description": "A tattered map of the surrounding area."
+        },
+        {
+          "name": "Torch",
+          "description": "A simple wooden torch."
+        }
+      ],
+      "containers": [
+        {
+          "name": "Hollow Log",
+          "description": "A large, hollow log.",
+          "items": []
+        }
+      ],
+      "exits": {
+        "north": "Shadowfen Mire",
+        "east": null,
+        "south": null,
+        "west": null
+      },
+      "entrances": [],
+      "weather": "clear",
+      "light_level": 7,
+      "ambiance": "peaceful",
+      "terrain": "forest floor"
+    },
+    {
+      "name": "Shadowfen Mire",
+      "description": "A treacherous swamp filled with dark waters and lurking dangers.",
+      "npcs": [
+        {
+          "name": "Giant Spider",
+          "description": "A large, venomous spider.",
+          "inventory": [],
+          "hostility": "hostile"
+        },
+        {
+          "name": "Will-o'-the-Wisp",
+          "description": "A mysterious, floating light.",
+          "inventory": [],
+          "hostility": "neutral"
+        }
+      ],
+      "items": [
+        {
+          "name": "Potion",
+          "description": "A murky potion of unknown origin."
+        },
+        {
+          "name": "Herb",
+          "description": "A rare swamp herb."
+        }
+      ],
+      "containers": [
+        {
+          "name": "Sunken Chest",
+          "description": "A waterlogged chest.",
+          "items": []
+        }
+      ],
+      "exits": {
+        "north": null,
+        "east": null,
+        "south": "Whispering Pines",
+        "west": "Crystal Caves"
+      },
+      "entrances": [],
+      "weather": "foggy",
+      "light_level": 2,
+      "ambiance": "eerie",
+      "terrain": "swamp"
+    },
+    {
+      "name": "Crystal Caves",
+      "description": "Glistening caves adorned with shimmering crystals of all colors.",
+      "npcs": [
+        {
+          "name": "Cave Bat",
+          "description": "A small, harmless bat.",
+          "inventory": [],
+          "hostility": "passive"
+        },
+        {
+          "name": "Gem Golem",
+          "description": "A towering golem made of crystals.",
+          "inventory": [],
+          "hostility": "hostile"
+        }
+      ],
+      "items": [
+        {
+          "name": "Crystal Shard",
+          "description": "A sharp shard of crystal."
+        },
+        {
+          "name": "Gold",
+          "description": "A few gold coins."
+        }
+      ],
+      "containers": [
+        {
+          "name": "Crystal Formation",
+          "description": "A natural crystal formation.",
+          "items": []
+        }
+      ],
+      "exits": {
+        "north": null,
+        "east": "Shadowfen Mire",
+        "south": null,
+        "west": null
+      },
+      "entrances": [],
+      "weather": "none",
+      "light_level": 5,
+      "ambiance": "magical",
+      "terrain": "rock"
+    },
+    {
+      "name": "Dragon's Peak",
+      "description": "The highest peak, said to be the nesting ground of ancient dragons.",
+      "npcs": [
+        {
+          "name": "Young Dragon",
+          "description": "A small, but fierce dragon.",
+          "inventory": [],
+          "hostility": "hostile"
+        },
+        {
+          "name": "Mountain Goat",
+          "description": "A sure-footed mountain goat.",
+          "inventory": [],
+          "hostility": "passive"
+        }
+      ],
+      "items": [
+        {
+          "name": "Dragon Scale",
+          "description": "A tough scale from a dragon."
+        },
+        {
+          "name": "Ancient Coin",
+          "description": "A coin from a long-lost civilization."
+        }
+      ],
+      "containers": [
+        {
+          "name": "Dragon's Nest",
+          "description": "A large nest made of sticks and bones.",
+          "items": []
+        }
+      ],
+      "exits": {
+        "north": null,
+        "east": null,
+        "south": null,
+        "west": null
+      },
+      "entrances": [],
+      "weather": "windy",
+      "light_level": 8,
+      "ambiance": "dangerous",
+      "terrain": "rocky"
+    },
+    {
+      "name": "Silent Grove",
+      "description": "A peaceful grove where silence reigns and nature thrives.",
+      "npcs": [
+        {
+          "name": "Deer",
+          "description": "A graceful deer.",
+          "inventory": [],
+          "hostility": "passive"
+        },
+        {
+          "name": "Dryad",
+          "description": "A tree spirit.",
+          "inventory": [],
+          "hostility": "neutral"
+        }
+      ],
+      "items": [
+        {
+          "name": "Berries",
+          "description": "A handful of edible berries."
+        },
+        {
+          "name": "Healing Herbs",
+          "description": "Herbs with medicinal properties."
+        }
+      ],
+      "containers": [
+        {
+          "name": "Ancient Tree",
+          "description": "A large, ancient tree.",
+          "items": []
+        }
+      ],
+      "exits": {
+        "north": null,
+        "east": null,
+        "south": null,
+        "west": null
+      },
+      "entrances": [],
+      "weather": "clear",
+      "light_level": 6,
+      "ambiance": "serene",
+      "terrain": "grass"
+    }
+  ]
+}

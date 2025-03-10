@@ -2,7 +2,7 @@ import random
 from typing import List, Dict, Optional, Any
 import json
 
-with open("d:\\drevo\\OneDrive\\Documents\\.Documents\\repos\\storymapper\\map1.json", "r") as f:
+with open("d:\\drevo\\OneDrive\\Documents\\.Documents\\repos\\storymapper\\rooms_data.json", "r") as f:
     map_data = json.load(f)
     ROOM_DATA = map_data["rooms"]
 
@@ -21,12 +21,15 @@ class Room:
         self.room_data = self.get_room_data()
         self.name = self.room_data["name"]
         self.description = self.room_data["description"]
-        self.inventory = self.room_data["inventory"]
         self.npcs = self.room_data["npcs"]
+        self.items = self.room_data["items"]
+        self.containers = self.room_data["containers"]
         self.exits = self.room_data["exits"]
-        self.light_value = self.generate_light_value()
-        self.weather_affected = self.generate_weather_affected()
-        self.conditions = self.generate_conditions()
+        self.entrances = self.room_data["entrances"]
+        self.weather = self.room_data["weather"]
+        self.light_level = self.room_data["light_level"]
+        self.ambiance = self.room_data["ambiance"]
+        self.terrain = self.room_data["terrain"]
 
     def get_room_data(self) -> Dict[str, Any]:
         """Get room data from the JSON file.
