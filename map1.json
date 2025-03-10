@@ -1,0 +1,179 @@
+{
+  "rooms": [
+    {
+      "name": "Whispering Pines",
+      "description": "A forest of towering pines where the wind seems to whisper secrets.",
+      "inventory": ["map", "torch"],
+      "npcs": ["forest spirit"],
+      "exits": {"north": "Shadowfen Mire", "east": null, "south": null, "west": null}
+    },
+    {
+      "name": "Shadowfen Mire",
+      "description": "A treacherous swamp filled with dark waters and lurking dangers.",
+      "inventory": ["potion", "herb"],
+      "npcs": ["giant spider", "will-o'-the-wisp"],
+      "exits": {"north": null, "east": null, "south": "Whispering Pines", "west": "Crystal Caves"}
+    },
+    {
+      "name": "Crystal Caves",
+      "description": "Glistening caves adorned with shimmering crystals of all colors.",
+      "inventory": ["crystal shard", "gold"],
+      "npcs": ["cave bat", "gem golem"],
+      "exits": {"north": null, "east": "Shadowfen Mire", "south": null, "west": null}
+    },
+    {
+      "name": "Dragon's Peak",
+      "description": "The highest peak, said to be the nesting ground of ancient dragons.",
+      "inventory": ["dragon scale", "ancient coin"],
+      "npcs": ["young dragon", "mountain goat"],
+      "exits": {"north": null, "east": null, "south": null, "west": null}
+    },
+    {
+      "name": "Silent Grove",
+      "description": "A peaceful grove where silence reigns and nature thrives.",
+      "inventory": ["berries", "healing herbs"],
+      "npcs": ["deer", "dryad"],
+      "exits": {"north": null, "east": null, "south": null, "west": null}
+    },
+    {
+      "name": "Forgotten Crypt",
+      "description": "A long-forgotten burial place filled with eerie shadows.",
+      "inventory": ["rusty sword", "tattered shroud"],
+      "npcs": ["skeleton", "ghost"],
+      "exits": {"north": null, "east": null, "south": null, "west": null}
+    },
+    {
+      "name": "Sunken City",
+      "description": "Ruins of a once-great city now submerged beneath the waves.",
+      "inventory": ["seaweed", "pearl"],
+      "npcs": ["siren", "crab"],
+      "exits": {"north": null, "east": null, "south": null, "west": null}
+    },
+    {
+      "name": "Haunted Manor",
+      "description": "A dilapidated mansion haunted by restless spirits.",
+      "inventory": ["old book", "candlestick"],
+      "npcs": ["ghost", "phantom"],
+      "exits": {"north": null, "east": null, "south": null, "west": null}
+    },
+    {
+      "name": "Enchanted Forest",
+      "description": "A magical forest teeming with mythical creatures and hidden wonders.",
+      "inventory": ["magic wand", "fairy dust"],
+      "npcs": ["fairy", "unicorn"],
+      "exits": {"north": null, "east": null, "south": null, "west": null}
+    },
+    {
+      "name": "Lost Temple",
+      "description": "An ancient temple dedicated to forgotten gods.",
+      "inventory": ["idol", "hieroglyph tablet"],
+      "npcs": ["guardian statue", "snake"],
+      "exits": {"north": null, "east": null, "south": null, "west": null}
+    },
+    {
+      "name": "Iron Gate",
+      "description": "A massive gate forged from iron, guarding a mysterious path.",
+      "inventory": ["iron key", "gate mechanism"],
+      "npcs": ["golem", "guard"],
+      "exits": {"north": null, "east": null, "south": null, "west": null}
+    },
+    {
+      "name": "The Abyss",
+      "description": "A bottomless chasm shrouded in darkness and despair.",
+      "inventory": ["rope", "lantern"],
+      "npcs": ["shadow creature", "void spirit"],
+      "exits": {"north": null, "east": null, "south": null, "west": null}
+    },
+    {
+      "name": "Serpent's Pass",
+      "description": "A winding path through treacherous mountains, home to deadly serpents.",
+      "inventory": ["antivenom", "climbing gear"],
+      "npcs": ["giant snake", "mountain lion"],
+      "exits": {"north": null, "east": null, "south": null, "west": null}
+    },
+    {
+      "name": "Ogre's Lair",
+      "description": "The dwelling of a fearsome ogre, littered with bones and debris.",
+      "inventory": ["bone club", "ogre stew"],
+      "npcs": ["ogre", "goblin"],
+      "exits": {"north": null, "east": null, "south": null, "west": null}
+    },
+    {
+      "name": "Fairy Ring",
+      "description": "A circle of mushrooms where fairies gather to dance and play.",
+      "inventory": ["fairy dust", "mushroom"],
+      "npcs": ["fairy", "sprite"],
+      "exits": {"north": null, "east": null, "south": null, "west": null}
+    },
+    {
+      "name": "Goblin Market",
+      "description": "A bustling marketplace where goblins trade in strange and unusual goods.",
+      "inventory": ["strange potion", "rusty dagger"],
+      "npcs": ["goblin merchant", "thief"],
+      "exits": {"north": null, "east": null, "south": null, "west": null}
+    },
+    {
+      "name": "Wizard's Tower",
+      "description": "A tall tower where a powerful wizard conducts arcane experiments.",
+      "inventory": ["spellbook", "magic staff"],
+      "npcs": ["wizard", "apprentice"],
+      "exits": {"north": null, "east": null, "south": null, "west": null}
+    },
+    {
+      "name": "Ancient Library",
+      "description": "A vast collection of ancient texts and forbidden knowledge.",
+      "inventory": ["ancient scroll", "ink"],
+      "npcs": ["librarian", "scholar"],
+      "exits": {"north": null, "east": null, "south": null, "west": null}
+    },
+    {
+      "name": "Thieves' Guild",
+      "description": "A hidden hideout for thieves and assassins, filled with secrets and shadows.",
+      "inventory": ["lockpick", "dagger"],
+      "npcs": ["thief", "assassin"],
+      "exits": {"north": null, "east": null, "south": null, "west": null}
+    },
+    {
+      "name": "Warrior's Hall",
+      "description": "A grand hall where warriors train and celebrate their victories.",
+      "inventory": ["sword", "shield"],
+      "npcs": ["warrior", "trainer"],
+      "exits": {"north": null, "east": null, "south": null, "west": null}
+    },
+    {
+      "name": "King's Court",
+      "description": "The seat of power where the king rules over his kingdom.",
+      "inventory": ["royal decree", "crown"],
+      "npcs": ["king", "advisor"],
+      "exits": {"north": null, "east": null, "south": null, "west": null}
+    },
+    {
+      "name": "Queen's Garden",
+      "description": "A beautiful garden filled with exotic flowers and fragrant herbs.",
+      "inventory": ["flower", "herb"],
+      "npcs": ["queen", "gardener"],
+      "exits": {"north": null, "east": null, "south": null, "west": null}
+    },
+    {
+      "name": "Prison Cell",
+      "description": "A dark and damp cell where prisoners are held captive.",
+      "inventory": ["chains", "bucket"],
+      "npcs": ["prisoner", "guard"],
+      "exits": {"north": null, "east": null, "south": null, "west": null}
+    },
+    {
+      "name": "Torture Chamber",
+      "description": "A gruesome chamber where torturers inflict pain and suffering.",
+      "inventory": ["torture device", "bloodstain"],
+      "npcs": ["torturer", "victim"],
+      "exits": {"north": null, "east": null, "south": null, "west": null}
+    },
+    {
+      "name": "Treasure Vault",
+      "description": "A heavily guarded vault filled with gold, jewels, and ancient artifacts.",
+      "inventory": ["gold", "jewel"],
+      "npcs": ["guardian", "thief"],
+      "exits": {"north": null, "east": null, "south": null, "west": null}
+    }
+  ]
+}
